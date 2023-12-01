@@ -1,4 +1,4 @@
-import { describe, test, expect } from "vitest";
+import { describe, test, expect, jest, waitFor } from "vitest";
 import { render, screen } from "@testing-library/react";
 import Search from "./Search";
 
