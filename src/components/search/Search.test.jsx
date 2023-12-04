@@ -1,5 +1,5 @@
-import { describe, test, expect, jest, waitFor } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { waitFor } from "vitest";
+import { render, screen, describe, test, expect, jest } from "@testing-library/react";
 import Search from "./Search";
 
 const mockOnSearchChange = jest.fn();
